@@ -2080,7 +2080,7 @@ function Library.new(windowName: string, constrainToScreen: boolean?, width: num
 		background.Size = UDim2.fromOffset(background.AbsoluteSize.X, height)
 	end
 
-	holder.PageLogo.Image = backgroundImageId or "rbxassetid://11435586663"
+	holder.PageLogo.Image = backgroundImageId or "rbxassetid://17826428815"
 	background.Position = UDim2.new(0, background.AbsolutePosition.X + background.AbsoluteSize.X / 2, 0, background.AbsolutePosition.Y + background.AbsoluteSize.Y / 2 + 36)
 	background.BackgroundUIAspectRatioConstraint:Destroy()
 	holder.Size = UDim2.new(0,holder.AbsoluteSize.X,0,holder.AbsoluteSize.Y)
