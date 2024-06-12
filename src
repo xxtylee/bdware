@@ -218,7 +218,7 @@ local function createOriginialElements()
 		local tabsUIListLayout = Instance.new("UIListLayout")
 		local pageLogo = Instance.new("ImageLabel")
 		
-		screenGui.Name = "Cerberus"
+		screenGui.Name = "bdware"
 		screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 		screenGui.IgnoreGuiInset = true
 		
@@ -342,7 +342,7 @@ local function createOriginialElements()
 		title.Size = UDim2.new(0.25, 0, 0.899999976, 0)
 		title.Font = Enum.Font.GothamBold
 		title.LineHeight = 0.800
-		title.Text = "Cerberus"
+		title.Text = "bdware"
 		title.TextColor3 = Color3.fromRGB(255, 255, 255)
 		title.TextSize = 14.000
 		title.TextXAlignment = Enum.TextXAlignment.Left
@@ -2068,7 +2068,7 @@ function Library.new(windowName: string, constrainToScreen: boolean?, width: num
 		holder.Tabs.CanvasSize = UDim2.fromOffset(0,holder.Tabs.TabsUIListLayout.AbsoluteContentSize.Y + holder.Tabs.TabsUIListLayout.Padding.Offset)
 	end)
 
-	heading.Title.Text = windowName or "Cerberus"
+	heading.Title.Text = windowName or "bdware"
 	windowInstance.Parent = game:GetService("CoreGui") -- Change to core later on and add detection bypass
 	background.Size = UDim2.fromOffset(background.AbsoluteSize.X, background.AbsoluteSize.Y)
 	
